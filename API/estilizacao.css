@@ -1,0 +1,179 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,30,33,1) 35%, rgba(64,115,125,1) 95%);
+    
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container{
+  
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card h2{
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.card p{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+@media (max-widht: 758px){
+    .card p{
+        font-size: 1.5rem;
+    }
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    color: white;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    padding: 100px;
+    text-align: center;
+    
+}
+
+.row{
+    padding: 30px;
+}
+
+#footer{
+    color: white;
+}
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,92,1) 77%, rgba(0,212,255,1) 100%);
+}
+
+@media (max-width: 1784px) {
+    .card {
+      height: 420px;
+    }
+   img{
+    height: 230px;
+   }
+   
+   .btn {
+        margin-top: 20px;
+   }
+  }
+
+
+  
+
+@media (max-width: 2080px) {
+    .card {
+      height: 420px;
+    }
+   img{
+    height: 230px;
+   }
+   
+   .btn {
+        margin-top: 10px;
+   }
+  }
+
+@media (max-width: 376px) {
+    .container{
+        width: 100%;
+       
+    }
+    .card {
+      height: 420px;
+      width: 300px;
+      right: 500px;
+    
+    }
+   img{
+    height: 5300px;
+   }
+   
+   .btn {
+        margin-top: 10px;
+   }
+
+   p{
+    font-size: 14px;
+   }
+  }
+
+@media (max-width: 414px) {
+    .container{
+        width: 100%;
+       
+    }
+    .card {
+      height: 420px;
+      width: 300px;
+      right: 70px;
+    
+    }
+   img{
+    height: 5300px;
+   }
+   
+   .btn {
+        margin-top: 10px;
+   }
+
+   p{
+    font-size: 14px;
+   }
+  }
+
+@media (max-width: 375px) {
+    .container{
+        width: 100%;
+       
+    }
+    .card {
+      height: 420px;
+      width: 300px;
+      right: 90px;
+    
+    }
+   img{
+    height: 5300px;
+   }
+   
+   .btn {
+        margin-top: 10px;
+   }
+
+   p{
+    font-size: 14px;
+   }
+  }
+
+ 
+
+  

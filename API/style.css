@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    padding: 100px;
+    text-align: center;
+    
+}
+
+.row{
+    padding: 30px;
+}
+
+#footer{
+    color: white;
+}
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,92,1) 77%, rgba(0,212,255,1) 100%);
+}
+
+@media (max-width: 1784px) {
+    .card {
+      height: 420px;
+    }
+   img{
+    height: 230px;
+   }
+   
+   .btn {
+        margin-top: 20px;
+   }
+  }
+
+
+  
+
+@media (max-width: 2080px) {
+    .card {
+      height: 420px;
+    }
+   img{
+    height: 230px;
+   }
+   
+   .btn {
+        margin-top: 10px;
+   }
+  }
+
+@media (max-width: 375px) {
+    .container{
+        width: 100%;
+       
+    }
+    .card {
+      height: 420px;
+      width: 300px;
+      right: 100px;
+    
+    }
+   img{
+    height: 5300px;
+   }
+   
+   .btn {
+        margin-top: 10px;
+   }
+
+   p{
+    font-size: 14px;
+   }
+  }
+
+@media (max-width: 414px) {
+    .container{
+        width: 100%;
+       
+    }
+    .card {
+      height: 420px;
+      width: 300px;
+      right: 70px;
+    
+    }
+   img{
+    height: 5300px;
+   }
+   
+   .btn {
+        margin-top: 10px;
+   }
+
+   p{
+    font-size: 14px;
+   }
+  }
+
+@media (max-width: 375px) {
+    .container{
+        width: 100%;
+       
+    }
+    .card {
+      height: 420px;
+      width: 300px;
+      right: 90px;
+    
+    }
+   img{
+    height: 5300px;
+   }
+   
+   .btn {
+        margin-top: 10px;
+   }
+
+   p{
+    font-size: 14px;
+   }
+  }
+
+
+
+ 
+  
